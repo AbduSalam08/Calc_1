@@ -7,7 +7,14 @@ const MainCalc = () => {
   const [res, setRes] = useState("");
 
   const findAnswer = () => {
+    //both results are saved in results variable
+
+    //this method is using eval function - which converts a string to an expression
+    // let result = eval(res);
+
+    //this method is using Function Interface method- which cretes a funtion without name in runtime and converts and returns the given string to an expression
     let result = Function("return " + res)();
+
     setRes(result.toString());
   };
 
