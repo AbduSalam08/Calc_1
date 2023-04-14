@@ -1,0 +1,21 @@
+.head {
+  padding: 10px 40px;
+  border-bottom: 1px solid #ffffff10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #b6bdc7;
+}
+.head .logo {
+  font-size: 24px;
+}
+.head .ver {
+  width: 150px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #16213c;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px solid #b6bdc730;
+}
