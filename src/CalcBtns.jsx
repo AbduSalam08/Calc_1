@@ -5,7 +5,11 @@ const CalcBtns = ({ calcKeys, inputHandler }) => {
     <div className="calckeys">
       {calcKeys.map((val, idx) => {
         return (
-          <button key={idx} onClick={() => inputHandler(val)}>
+          <button
+            key={idx}
+            onClick={() => inputHandler(val)}
+            className={`${val === "AC" || val === "=" ? "mainBtns" : ""}`}
+          >
             {val}
           </button>
         );

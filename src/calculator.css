@@ -38,6 +38,11 @@
   margin-top: 30px;
   margin-bottom: 10px;
 }
+.calckeys .mainBtns {
+  background-color: #62b0f0;
+  color: #0b111e;
+  font-weight: bold;
+}
 .calckeys button {
   width: 90px;
   height: 70px;
